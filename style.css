@@ -206,7 +206,7 @@ align-items: center;
     background-color:#ffffff ;
     padding: 25px;
     border-radius: 5px;
-    
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
 }
 
@@ -226,7 +226,7 @@ margin-top: 10px;
 }
 .gird-section-photo .photo-features .font-heading1{
    
-    background-color:#f7a5d9 ;
+    background-color:#e1a9cc ;
 
 }
 .gird-section-photo .photo-features .font-heading2{
@@ -258,20 +258,100 @@ margin-top: 10px;
 
 .style-gallery{
     text-align: center;
+    margin-top: 40px;
+    text-shadow: 2px 2px 2px rgba(18, 19, 20, 0.21);
 }
 .gird-summer-photo{
     width: 90%;
-    height: 300px;
+    height: 1200px;
     position: relative;
     z-index: 999;
     display: grid;
-    margin-top: 100px;
-    grid-template-columns:repeat( auto-fit, minmax(200px, 1fr) );
-    grid-template-rows: repeat( auto-fit, minmax(200px, 1fr) );
-    gap: 10px;
+    margin-top: 80px;
+    grid-template-columns:repeat( auto-fit, minmax(300px, 1fr) );
+    grid-template-rows: repeat( auto-fit, minmax(300px, 1fr) );
+    gap: 15px 20px;
    margin-right: auto;
    margin-left: auto;
 justify-content: center;
 align-items: center;
  
+}
+.photo-sum{
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color:#ffffff ;
+border-radius: 30px;
+margin-left: auto;
+margin-right: auto;
+width: 310px;
+height: auto;
+padding: 15px;
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.gird-summer-photo .photo-sum img{
+    width: 280px;
+    height: auto;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.gird-summer-photo .photo-sum h6{
+    color:#BBBDC4 ;
+    padding: 5px;
+}
+.gird-summer-photo .photo-sum h5{
+    font-weight: 700;
+}
+.gird-summer-photo .photo-sum p{
+    color:#FFD720 ;
+  margin-top: -10px;
+}
+.gird-summer-photo .photo-sum .shopping-car{
+    display: flex;
+    justify-content: space-between;
+text-align: center;
+
+}
+.gird-summer-photo .photo-sum .dollar{
+    color:#f87b28 ;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.gird-summer-photo .photo-sum .shopping-car a{
+  color:#f87b28 ;
+   background-color:#dad0ca ;
+   padding: 10px;
+   border-radius: 50%;
+}
+/* ***********************************section flower pattern*********************************** */
+.flower-pattern{
+    width: 100%;
+    height: 300px;
+   position: relative;
+    background-image: url("./Screenshot\ 2022-07-01\ 044625.jpg");
+    margin-top: 70px;
+    background-position: center;
+    background-size: cover;
+    z-index: 999;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center; box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.flower-pattern h5,
+.flower-pattern h2{
+background-color: #ffffff;
+text-shadow: 2px 2px 2px rgba(28,110,164,0.21);
+padding: 10px;
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+border-radius: 10px;
+}
+.flower-pattern h2 span{
+    color: crimson;
+    text-shadow: 2px 2px 2px rgba(40, 42, 43, 0.21);
 }
