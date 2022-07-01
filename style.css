@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Overpass:wght@100;200;700&family=Playfair+Display:ital,wght@1,400;1,500&family=Raleway:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    max-width: 100%;
+    position: relative;
+   background-color:#f5f6ed ;
+   font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    position: sticky;
+    display: flex;
+  background-color:#f5f6ed ;
+    align-items: center;
+    justify-content: space-between;
+height: 60px;
+padding: 20px 80px;
+
+box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+z-index: 1000;
+top: 0;
+right: 0;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul li{
+    list-style: none;
+    padding: 0 20px;
+}
+ul li a{
+    position: relative;
+    text-decoration: none;
+    color: rgb(57, 53, 53);
+    transition: 0.2 ease;
+}
+ul li a:hover,
+ul li a.active{
+    color: #9F5233;
+}
+ul li a.active::after{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background-color:#9F5233 ;
+    left: 2px;
+    bottom:-8px;
+
+}
+ul li a:hover::after{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background-color:#9F5233 ;
+    left: 2px;
+    bottom:-8px;
+}
+/* End of navbar */
+/* **************Hero-section*********************************************************** */
+.hero-section{
+   position: relative;
+    max-width: 90%;
+    height: 700px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 999;
+ 
+   
+  
+}
+
+.trail{
+    background-color:#c53535 ;
+    width:450px;
+    height: 570px;
+    position: absolute;
+    bottom:  40px;
+    right: 10px;
+    border-radius: 5px;
+    -moz-transform: scale(1) rotate(103deg);
+    -webkit-transform: scale(1) rotate(103deg);
+    -o-transform: scale(1) rotate(103deg);
+    -ms-transform: scale(1) rotate(103deg);
+    transform: scale(1) rotate(103deg);
+   
+   
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.hero-image{
+    width:430px;
+    height: 550px;
+    position: absolute;
+    bottom:  35px;
+ right: 30px;
+   border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    -moz-transform: scale(1) rotate(267deg);
+    -webkit-transform: scale(1) rotate(267deg);
+    -o-transform: scale(1) rotate(267deg);
+    -ms-transform: scale(1) rotate(267deg);
+    transform: scale(1) rotate(267deg);
+}
+.hero-text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    
+    padding: 200px 75px;
+}
+h1{
+    font-size: 6em;
+    margin-bottom: 10px;
+    color: crimson;
+    line-height: 0.8em;
+   
+    text-shadow: 2px 2px 2px rgba(28,110,164,0.21);
+}
+h2{
+    font-size: 3em;
+    margin-bottom: 15px;
+    color: #9F5233;
+}
+h3{
+    font-size: 1.5em;
+
+}
+h5{
+    font-size:1.2em ;
+    margin-bottom: 40px;
+   color:#2F353A ;
+}
+button{
+   background-image: url("./imgfor commerceproject/button.png");
+   padding: 14px 80px 14px 65px;
+   background-position:center;
+   border: none;
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-size: 20px;
+   font-weight: 700;
+   background-color: transparent;
+   cursor: pointer;
+}
+/* *******************section 2 ************************************************** */
+.black-line{
+    margin-top: 50px;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(4, 3, 4);
+    position: relative;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+
+.black-line h3{
+   
+    font-size: 1.5em;
+    color: gold;
+    font-weight: 400;
+}
+.black-line h3 span{
+    color: #ffffff;
+    padding: 5px;
+}
+.black-line a{
+    color: #ffffff;
+}
+
+.gird-section-photo{
+    width: 90%;
+    height: 300px;
+    position: relative;
+    z-index: 999;
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns:repeat( auto-fit, minmax(200px, 1fr) );
+    gap: 10px;
+   margin-right: auto;
+   margin-left: auto;
+justify-content: center;
+align-items: center;
+
+}
+.photo-features{
+    height: 200px;
+    width: 190px;
+    background-color:#ffffff ;
+    padding: 25px;
+    border-radius: 5px;
+    
+
+}
+
+.gird-section-photo .photo-features .font-heading1,
+.gird-section-photo .photo-features .font-heading2,
+.gird-section-photo .photo-features .font-heading3,
+.gird-section-photo .photo-features .font-heading4,
+.gird-section-photo .photo-features .font-heading5,
+.gird-section-photo .photo-features .font-heading6{
+   
+    font-weight: 700;
+    font-size: 1.1em;
+    text-align: center;
+    padding: 5px;
+border-radius: 5px;
+margin-top: 10px;
+}
+.gird-section-photo .photo-features .font-heading1{
+   
+    background-color:#f7a5d9 ;
+
+}
+.gird-section-photo .photo-features .font-heading2{
+    
+    background-color:#C7E3F2 ;
+
+}
+.gird-section-photo .photo-features .font-heading3{
+   
+    background-color:#75FBED ;
+
+}
+.gird-section-photo .photo-features .font-heading4{
+    
+    background-color:#FDE4CC ;
+
+}
+.gird-section-photo .photo-features .font-heading5{
+   
+    background-color: #C0FFC0;
+
+}
+.gird-section-photo .photo-features .font-heading6{
+   
+    background-color:#E9D0DE ;
+
+}
+/* ########################### beach look section ################################### */
+
+.style-gallery{
+    text-align: center;
+}
+.gird-summer-photo{
+    width: 90%;
+    height: 300px;
+    position: relative;
+    z-index: 999;
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns:repeat( auto-fit, minmax(200px, 1fr) );
+    grid-template-rows: repeat( auto-fit, minmax(200px, 1fr) );
+    gap: 10px;
+   margin-right: auto;
+   margin-left: auto;
+justify-content: center;
+align-items: center;
+ 
+}
